@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href={{ url_for('static', filename='styles.css') }} >
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>URL input portal</title>
+	<br>
+	<br>
+	<div class="counter"> {{ unique_count }}</div>
+</head>
+<body>
+	<form>
+		<br>
+		<br>
+		<input class="urlfield" type="text" name="url" autocomplete="off" autofocus>
+		<br>
+		<br>
+		<br>
+		<button class="btn" type="submit" formmethod="POST"> ADD! </button>
+	</form>
+</body>
+</html>

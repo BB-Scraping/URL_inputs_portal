@@ -1,0 +1,22 @@
+body {
+	text-align: center;
+}
+
+.counter {
+	text-align: center;
+	color: red;
+	font-family: sans-serif;
+	font-size: 20vh;
+}
+
+.urlfield {
+	height: 42px;
+	font-size: 28px;
+	width: 50vw;
+}
+
+.btn {
+	height: 50px;
+	width: 50vw;
+	font-size: 28px;
+}
